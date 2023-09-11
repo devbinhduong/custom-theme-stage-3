@@ -30,6 +30,7 @@ export default class Global extends PageManager {
 
         if (!$('body').hasClass('page-type-cart')) {
             cartPreview(secureBaseUrl, cartId, this.context);
+            console.log("Alex tesst");
         }
 
         currencySelector(cartId);
@@ -49,6 +50,13 @@ export default class Global extends PageManager {
 
         if ($('.header-layout-2').length) {
             haloToolbarMobile();
+            console.log("Alex tesst everywhere");
+        }
+
+
+
+        function Alex() {
+            console.log("Alex Tesst");
         }
     }
 }
