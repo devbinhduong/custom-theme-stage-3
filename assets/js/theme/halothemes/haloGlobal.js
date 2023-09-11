@@ -407,8 +407,15 @@ export default function(context) {
     }
     Event();
 
+    function Alex() {
+        console.log("Alex Tesst");
+    }
+
     function hoverMenu() {
         if ($(window).width() > 1024) {
+            console.log("Alex Tesst");
+            console.log("Alex Tesst");
+            console.log("Alex Tesst");
             if ($('.navPages-list:not(.navPages-list--user) > .navPages-item.has-dropdown').length) {
                 $('.navPages-list:not(.navPages-list--user) > .navPages-item.has-dropdown').on('mouseover', event => {
                     $('body').addClass('openMenuPC');
