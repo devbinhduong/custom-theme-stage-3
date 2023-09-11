@@ -2654,4 +2654,8 @@ function viewEventMore() {
             eventContents[currentIndex + 1].style.display = 'block';
         }
     }
+
+    function test() {
+        console.log("Quang Minh");
+    }
 }
